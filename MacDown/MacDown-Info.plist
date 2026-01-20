@@ -45,13 +45,16 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
-			<array/>
+			<array>
+				<string>txt</string>
+				<string>text</string>
+			</array>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>text/plain</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>NSStringPboardType</string>
+			<string>Plain Text</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -64,6 +67,10 @@
 			<string>MPDocument</string>
 		</dict>
 		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>*</string>
+			</array>
 			<key>CFBundleTypeName</key>
 			<string>Document</string>
 			<key>CFBundleTypeRole</key>

@@ -22,8 +22,8 @@
     if (!doc)
         return doc;
 
-    doc.draft = YES;
     doc.fileURL = url;
+    [self noteNewRecentDocumentURL:url];
     return doc;
 }
 
